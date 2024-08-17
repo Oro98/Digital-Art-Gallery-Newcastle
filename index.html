@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/surfing-88.png" type="image/x-icon">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+            <!-- Logo Section -->
+          
+              <!-- <li id="logo"><a href="index.html">Digital Art Gallery</a></li> -->
+              <li id="companyLogo">
+                <a href="index.html">
+                    <img src="images/surfing-88.png" alt="Digital Art Gallery Logo">
+                    <span id="logo">Digital Art Gallery</span>
+                </a>
+            </li>
+
+              <li class="hideOnMobile"><a href="index.html">Home</a></li>
+              <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+              <li class="hideOnMobile"><a href="about.html" >About</a></li>
+              <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+          </nav>
+</header>
+
+
+<main>
+
+    <!--Slider -->
+    <div class="imageContainer">
+        <div class="box">
+            <img src="images/undraw_barista_qd50.svg" alt="Barista Women">
+        </div>
+        <div class="box">
+            <img src="images/undraw_beach_day_cser.svg" alt="At the Beach" >
+        </div>
+        <div class="box">
+            <img src="images/undraw_choose_card_n0x0.svg" alt="Umbrella Man" >
+        </div>
+        <div class="box">
+            <img src="images/undraw_cooking_p7m1.svg" alt="Cooking" >
+        </div>
+        <div class="box">
+            <img src="images/undraw_expecting_l6j1.svg" alt="Expecting Women" >
+        </div>
+        <div class="box">
+            <img src="images/undraw_home_run_acyh.svg" alt="Home run shot" >
+        </div>
+    </div>
+    <!-- End Slider -->
+
+
+<!-- Items -->
+        <div class="container">
+            <h4 class="sectionHeader">Digital Art Gallery</h4>
+            <!-- Filler outline -->
+             <div class="filler_buttons">
+            <button class="active" data-name="all">Show all</button>
+            <button data-name="Exhibitions">Exhibitions</button>
+            <button data-name="Collections">Collections</button>
+            </div>
+        </div>
+            <!-- image cards -->
+            <div class="filterable_cards">
+                <!-- 1 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/7399312-sd_426_240_24fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_video_games_x1tr.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Museum Exhibition</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/4174346-sd_426_240_30fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_woman_ffrd.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">A Day of Exhibition</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/5823857-sd_426_240_24fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_walking_in_rain_vo9p.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Exhibitions</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 3.1 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/5823860-sd_240_426_24fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_undraw_undraw_videographer_xn9m_-2-_rb2b_-2-_pdnk.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Exhibitions</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 3.2 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/5824027-sd_426_240_24fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_undraw_undraw_undraw_undraw_undraw_shopping_bags_2ude_-1-_mnw3_-2-_q7y0_muk6_-2-_l1mh_-2-_m4xj.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Exhibitions</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 3.3 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/7399312-sd_426_240_24fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_undraw_undraw_undraw_undraw_notebook_ask4_ew5s_-1-_954q_-1-_yoow_-1-_n5mm.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Exhibitions</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 3.4 -->
+                   <!-- 3.3 -->
+                <div class="card" data-name="Exhibitions">
+                    <a href="gallery.html">
+                        <video src="images/8771643-sd_426_240_24fps.mp4" alt="At a Museum" class="box" controls poster="images/undraw_undraw_undraw_undraw_flying_drone_u3r2_-3-_egfy_-1-_2xjb_-1-_2hl5.svg"></video>
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Exhibitions</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                     <img src="images/undraw_in_love_6sq2.svg" alt="In love image" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                        <img src="images/undraw_landscape_photographer_blv1.svg" alt="landscape photographer image" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                        <img src="images/undraw_undraw_apps_bqvc_-1-_af00.svg" alt="App Image at a Museum" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 6.1 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                        <img src="images/undraw_love_it_heart_dxlp.svg" alt="Love it heart at a Museum" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 6.2 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                        <img src="images/undraw_traveling_yhxq.svg" alt="At a Museum" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 6.3 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                        <img src="images/undraw_passing_by_0un9.svg" alt="At a Museum" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+                <!-- 6.4 -->
+                <div class="card" data-name="Collections">
+                    <a href="gallery.html">
+                        <img src="images/undraw_pancakes_238t.svg" alt="At a Museum" class="box">
+                    </a>
+                    <div class="card_body">
+                        <h6 class="card_title">Collections</h6>
+                        <p class="card_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, quos.</p>
+                    </div>
+                </div>
+            </div>
+             <!-- about -->
+             <div class="containerabout">
+                <div class="aboutBox">
+                    <h1 class="sectionHeader">Newcastle Museum Of Digital Art Gallery</h1>
+                    <p>Newcastle Museum of Digital Art Gallery is a premier destination showcasing cutting-edge digital art, 
+                        blending technology with creativity. Located in Newcastle, it features interactive exhibits, contemporary digital artworks, and immersive experiences, fostering innovation and cultural appreciation. The gallery serves as a hub for artists, tech enthusiasts, and art lovers alike.
+                    </p>
+                    <button >Learn More</button>
+                </div>
+                <div class="box1">
+                    <img src="images/img1.png" alt="About Me">
+                </div>
+            </div>  
+              <!-- end about -->
+               
+        <!-- contact  -->
+        <section class="contact-form">
+            <h4 class="sectionHeader">Contact us</h4>
+            <h1 class="heading">Get In Touch!</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
+                inventore omnis aliquid rerum alias molestias.</p>
+            
+            <div class="contactForm">
+                <form id="contactForm" action="/">
+                    <h1 class="sub-heading">Need Support!</h1>
+                    <p class="para para2">Contact us for a quote, help to join the them.</p>
+                    <input type="text" id="username" class="input" placeholder="Your name" required>
+                    <input type="text" id="email" class="input" placeholder="Your email" required>
+                    <input type="text" class="input" placeholder="Your Subject" required>
+                    <textarea class="input" cols="30" rows="5" placeholder="Your message..." required></textarea>
+                    <input type="submit" class="input submit" value="Send Message">
+                </form>
+        
+                <div class="map-container">
+                    <div class="mapBg"></div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6697.608078726782!2d151.77102701067957!3d-32.92977527092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b7315c2266d7859%3A0x428620130549fb34!2sKing&#39;s%20Own%20Institute%20Newcastle!5e0!3m2!1sen!2sau!4v1723456688278!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        
+           </section>
+         <!-- end contact -->
+</main>
+          <!-- footer -->
+          <footer class="footer">
+            <div class="container-footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Art Gallery</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>City of Newcastle </h4>
+                        <ul>
+                            <li><a href="#">Hunter Street</a></li>
+                            <li><a href="#">Newcastle NSW 2300</a></li>
+                            <li><a href="#">Australia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>City of Newcastle </h4>
+                        <ul>
+                            <li><a href="#">Hunter Street</a></li>
+                            <li><a href="#">Newcastle NSW 2300</a></li>
+                            <li><a href="#">Australia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p>&copy; 2024 Art Gallery . All rights reserved by Digital Art Gallery Newcastle.</p>
+            </div>
+       </footer>
+           <!-- end footer -->
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/surfing-88.png" type="image/x-icon">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul class="sidebar">
+              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+            <!-- Logo Section -->
+          
+              <!-- <li id="logo"><a href="index.html">Digital Art Gallery</a></li> -->
+              <li id="companyLogo">
+                <a href="index.html">
+                    <img src="images/surfing-88.png" alt="Digital Art Gallery Logo">
+                    <span id="logo">Digital Art Gallery</span>
+                </a>
+            </li>
+
+              <li class="hideOnMobile"><a href="index.html">Home</a></li>
+              <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+              <li class="hideOnMobile"><a href="about.html" >About</a></li>
+              <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+          </nav>
+</header>
+
+
+
+ <!-- contact  -->
+         <!-- contact  -->
+         <section class="contact-form">
+            <h4 class="sectionHeader">Contact us</h4>
+            <h1 class="heading">Get In Touch!</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
+                inventore omnis aliquid rerum alias molestias.</p>
+            
+            <div class="contactForm">
+                <form id="contactForm" action="/">
+                    <h1 class="sub-heading">Need Support!</h1>
+                    <p class="para para2">Contact us for a quote, help to join the them.</p>
+                    <input type="text" id="username" class="input" placeholder="Your name" required>
+                    <input type="text" id="email" class="input" placeholder="Your email" required>
+                    <input type="text" class="input" placeholder="Your Subject" required>
+                    <textarea class="input" cols="30" rows="5" placeholder="Your message..." required></textarea>
+                    <input type="submit" class="input submit" value="Send Message">
+                </form>
+        
+                <div class="map-container">
+                    <div class="mapBg"></div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6697.608078726782!2d151.77102701067957!3d-32.92977527092555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b7315c2266d7859%3A0x428620130549fb34!2sKing&#39;s%20Own%20Institute%20Newcastle!5e0!3m2!1sen!2sau!4v1723456688278!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        
+           </section>
+         <!-- end contact -->
+
+          <!-- footer -->
+          <footer class="footer">
+            <div class="container-footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Art Gallery</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>City of Newcastle </h4>
+                        <ul>
+                            <li><a href="#">Hunter Street</a></li>
+                            <li><a href="#">Newcastle NSW 2300</a></li>
+                            <li><a href="#">Australia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>City of Newcastle </h4>
+                        <ul>
+                            <li><a href="#">Hunter Street</a></li>
+                            <li><a href="#">Newcastle NSW 2300</a></li>
+                            <li><a href="#">Australia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bar">
+                <p>&copy; 2024 Art Gallery . All rights reserved by Art Gallery Newcastle.</p>
+            </div>
+       </footer>
+           <!-- end footer -->
+</body>
+</html>
